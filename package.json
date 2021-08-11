@@ -3,13 +3,38 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "db:init": "npx knex migrate:rollback --all && npx knex migrate:latest && npx knex seed:run",
+    "dev": "next dev --port=4321",
     "build": "next build",
-    "start": "next start"
+    "start": "next start --port=4321",
+    "lint": "next lint"
   },
   "dependencies": {
-    "next": "10.x",
-    "react": "17.x",
-    "react-dom": "17.x"
+    "@chakra-ui/react": "^1.6.5",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@fontsource/nunito-sans": "^4.5.0",
+    "@heroicons/react": "^1.0.3",
+    "@reduxjs/toolkit": "^1.6.1",
+    "axios": "^0.21.1",
+    "axios-auth-refresh": "^3.1.0",
+    "dayjs": "^1.10.6",
+    "framer-motion": "^4",
+    "js-cookie": "^3.0.0",
+    "knex": "^0.21.20",
+    "multer": "^1.4.3",
+    "next": "11.0.1",
+    "query-string": "^7.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^11.0.1",
+    "faker": "^5.5.3",
+    "sqlite3": "^5.0.2"
   }
 }

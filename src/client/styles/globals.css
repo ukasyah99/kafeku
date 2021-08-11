@@ -1,0 +1,22 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-slide > div > div > div {
+  border-radius: 1.5rem !important;
+  overflow: hidden;
+}
+
+/* Customize heroicons stroke width */
+.kafeku_icon_stroke_2 path {
+  stroke-width: 2 !important;
+}
+.kafeku_icon_stroke_1\.75 path {
+  stroke-width: 1.75 !important;
+}
+.kafeku_icon_stroke_1\.5 path {
+  stroke-width: 1.5 !important;
+}
+.kafeku_icon_stroke_1\.2 path {
+  stroke-width: 1.2 !important;
+}

@@ -1,0 +1,20 @@
+Kafeku
+
+Halaman Customer:
+- Home
+-- Banner (Slicker)
+-- Kategori
+-- Rekomendasi
+-- Ramah di kantong
+
+- Product List
+-- Kategori
+-- Rentang harga
+-- Urutkan berdasarkan
+-- 
+- Product Detail
+
+Halaman Admin:
+- Dashboard
+- Manage Products
+
